@@ -3,6 +3,7 @@ import PRODUCTS from "../data/PRODUCTS";
 import Subscribe from "../components/Subscribe";
 import Catalog from "../components/Catalog";
 import DiscountProducts from "../components/DiscountProducts";
+import banner from "../assets/images/banner.png";
 
 const IndexPage = () => {
   return (
@@ -40,7 +41,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="start__image">
-              <img src="../../public/images/banner.png" alt="image" />
+              <img src={banner} alt="image" />
             </div>
           </div>
           <div className="start__social start-social">
